@@ -31,4 +31,5 @@
     <string name="thank_you">Successful payment. Thank you for shopping with us.</string>
     <string name="done">DONE</string>
     <string name="package_name">com.ceosilvajr.app.onlineorderingapp</string>
+    <string name="password_hint">Password</string>
 </resources>
