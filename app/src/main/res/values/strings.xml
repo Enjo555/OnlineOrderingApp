@@ -11,9 +11,9 @@
     <string name="awww">AWWW</string>
     <string name="yehey">YEHEY</string>
     <string name="login">Login</string>
-    <string name="title_activity_select_items">Shop.Online</string>
+    <string name="title_activity_select_items">Items</string>
     <string name="total">TOTAL</string>
-    <string name="peso_placeholder">100.00</string>
+    <string name="peso_placeholder">PHP 0.0</string>
     <string name="checkout">Checkout</string>
     <string name="title_activity_checkout">Payment Method</string>
     <string name="payment_method">Payment Method</string>
@@ -27,4 +27,8 @@
     <string name="credi_cards">Saved Credit Card(s)</string>
     <string name="cash_delivery">Cash On Delivery</string>
     <string name="cash_delivery_message">Pay upon receiving your goods from the comfort of your home, workplace or any shipping destination of your choice.</string>
+    <string name="payment_message">Processing your payment.</string>
+    <string name="thank_you">Successful payment. Thank you for shopping with us.</string>
+    <string name="done">DONE</string>
+    <string name="package_name">com.ceosilvajr.app.onlineorderingapp</string>
 </resources>

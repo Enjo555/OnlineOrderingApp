@@ -9,18 +9,25 @@
         <dex dex="/Users/ceosilvajr/Dropbox (Q11 Technologies)/Development/android_projects/personal/OnlineOrderingApp/app/build/intermediates/pre-dexed/debug/classes-3f0e0987eac634bde1a333feda8f80edabec3a41.jar" />
     </item>
     <item
+        jar="/Users/ceosilvajr/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/Users/ceosilvajr/Dropbox (Q11 Technologies)/Development/android_projects/personal/OnlineOrderingApp/app/build/intermediates/pre-dexed/debug/gson-2.3-50199953445d27856ad656e0e7388eb90f2e2a87.jar" />
+    </item>
+    <item
+        jar="/Users/ceosilvajr/Dropbox (Q11 Technologies)/Development/android_projects/personal/OnlineOrderingApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/ceosilvajr/Dropbox (Q11 Technologies)/Development/android_projects/personal/OnlineOrderingApp/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-ddd4d27da3d35ebc12d565d28bf5431a82cabe8a.jar" />
+    </item>
+    <item
         jar="/Users/ceosilvajr/Dropbox (Q11 Technologies)/Development/android_projects/personal/OnlineOrderingApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
         <dex dex="/Users/ceosilvajr/Dropbox (Q11 Technologies)/Development/android_projects/personal/OnlineOrderingApp/app/build/intermediates/pre-dexed/debug/classes-9a73e3c260861b5575d89d027e810dfe42348049.jar" />
-    </item>
-    <item
-        jar="/Applications/Android Studio.app/Contents/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="/Users/ceosilvajr/Dropbox (Q11 Technologies)/Development/android_projects/personal/OnlineOrderingApp/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-a03cd4725cecaa475c596514fb9bc1abcb2344f6.jar" />
     </item>
     <item
         jar="/Users/ceosilvajr/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
@@ -30,18 +37,18 @@
         <dex dex="/Users/ceosilvajr/Dropbox (Q11 Technologies)/Development/android_projects/personal/OnlineOrderingApp/app/build/intermediates/pre-dexed/debug/butterknife-6.1.0-f56e1532dae77688025cd5e0444526961a61db77.jar" />
     </item>
     <item
+        jar="/Applications/Android Studio.app/Contents/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/ceosilvajr/Dropbox (Q11 Technologies)/Development/android_projects/personal/OnlineOrderingApp/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-a03cd4725cecaa475c596514fb9bc1abcb2344f6.jar" />
+    </item>
+    <item
         jar="/Users/ceosilvajr/Dropbox (Q11 Technologies)/Development/android_projects/personal/OnlineOrderingApp/app/build/intermediates/exploded-aar/com.github.orangegangsters/swipy/1.2.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="3139f7aa9cc345a67faeca13d7fa15115b9a94dd">
         <dex dex="/Users/ceosilvajr/Dropbox (Q11 Technologies)/Development/android_projects/personal/OnlineOrderingApp/app/build/intermediates/pre-dexed/debug/classes-d5a7da8dd8c3f6c6d551fc9b6d3f0d946c39d1f6.jar" />
-    </item>
-    <item
-        jar="/Users/ceosilvajr/Dropbox (Q11 Technologies)/Development/android_projects/personal/OnlineOrderingApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="/Users/ceosilvajr/Dropbox (Q11 Technologies)/Development/android_projects/personal/OnlineOrderingApp/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-ddd4d27da3d35ebc12d565d28bf5431a82cabe8a.jar" />
     </item>
 
 </items>

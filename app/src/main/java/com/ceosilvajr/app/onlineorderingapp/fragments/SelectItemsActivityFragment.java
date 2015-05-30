@@ -8,10 +8,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.ceosilvajr.app.onlineorderingapp.CheckoutActivity;
 import com.ceosilvajr.app.onlineorderingapp.R;
 import com.ceosilvajr.app.onlineorderingapp.adapters.ItemAdapter;
+import com.ceosilvajr.app.onlineorderingapp.managers.ShoppingCartManager;
+import com.ceosilvajr.app.onlineorderingapp.objects.ShoppingCart;
 import com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout;
 import com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayoutDirection;
 
@@ -31,6 +34,9 @@ public class SelectItemsActivityFragment extends Fragment {
     @InjectView(R.id.lv_items)
     ListView mLVItems;
 
+    @InjectView(R.id.tv_price)
+    TextView mTVPrice;
+
     private Activity mActivity;
 
     private ItemAdapter mAdtItems;
@@ -47,7 +53,16 @@ public class SelectItemsActivityFragment extends Fragment {
 
         mActivity = getActivity();
 
-        mAdtItems = new ItemAdapter(mActivity, null);
+        ShoppingCart shoppingCart = new ShoppingCart(null);
+        ShoppingCartManager.save(shoppingCart, mActivity);
+
+        mAdtItems = new ItemAdapter(mActivity, null, new ItemAdapter.OnAddClicked() {
+            @Override
+            public void add() {
+                ShoppingCart shoppingCart1 = ShoppingCartManager.get(mActivity);
+                mTVPrice.setText("PHP " + shoppingCart1.getTotalPrice());
+            }
+        });
         mLVItems.setAdapter(mAdtItems);
         mSwipy.setOnRefreshListener(new SwipyRefreshLayout.OnRefreshListener() {
             @Override

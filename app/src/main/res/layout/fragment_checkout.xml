@@ -19,6 +19,7 @@
             android:padding="10dp">
 
             <RadioButton
+                android:id="@+id/rb_credit_card"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -55,6 +56,7 @@
             android:padding="10dp">
 
             <RadioButton
+                android:id="@+id/rb_credit_debit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -91,6 +93,7 @@
             android:padding="10dp">
 
             <RadioButton
+                android:id="@+id/rb_cash"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:checked="true" />
@@ -128,6 +131,7 @@
             android:padding="10dp">
 
             <RadioButton
+                android:id="@+id/rb_paypal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -177,6 +181,7 @@
                 android:textColor="@color/accent" />
 
             <TextView
+                android:id="@+id/tv_final_price"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
